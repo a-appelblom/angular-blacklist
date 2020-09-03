@@ -1,20 +1,32 @@
 .Navigation {
+    width: 100%;
     margin-left: 1rem;
     margin-right: 1rem;
-}
-
-.Navigation div {
-    list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
+.Navigation div {}
+
+.logo {
+    width: 8rem;
+    height: 4rem;
+    overflow: hidden;
+    object-fit: contain;
+    object-position: center;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
 .links {
+    width: 33%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 50%;
 }
 
 .links a {
