@@ -1,0 +1,22 @@
+.Navigation {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.Navigation div {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.links a {
+    text-decoration: none;
+}
