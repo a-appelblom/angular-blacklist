@@ -1,0 +1,37 @@
+<div>
+
+    <h2>Bedragarens Namn och / eller Alias</h2>
+    <p>Du kan fylla i fler adresser. Separera genom att använda kolon "," </p>
+
+    <label>
+        Namn: <input type="text" [formControl]="name" />
+    </label>
+
+    <h2>Bedragarens E-post och adress</h2>
+    <p>Du kan fylla i fler adresser. Separera genom att använda kolon ","
+    <p>
+
+
+
+        <label>
+            E-post: <input type="text" [formControl]="email">
+
+        </label>
+    <h2>Bedragarens utgivna Telefonnummer</h2>
+    <label>
+        Telefonnummer: <input type="text" [formControl]="phone">
+
+    </label>
+
+    <h2>Klistra in text från bedragaren</h2>
+
+    <label>
+
+        Utdrag från bedragarens text <input type="text" [formControl]="scammerpaste">
+
+    </label>
+
+    <button (click)='onSubmit()'>Skicka</button>
+
+
+</div>
